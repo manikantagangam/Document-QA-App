@@ -18,7 +18,7 @@ Document-QA-App is a Streamlit web application that allows users to explore and 
 
 3. **Generate OpenAI API Key:**
 
-   - Obtain an API key from the OpenAI website.
+   - Obtain an API key from the [OpenAI website](https://platform.openai.com/api-keys).
 
 4. **Create .env File:**
 
