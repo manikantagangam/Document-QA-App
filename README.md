@@ -36,6 +36,13 @@ Document-QA-App is a Streamlit web application that allows users to explore and 
    - Open a browser and navigate to the provided local address (usually http://localhost:8501).
    - Upload a PDF document and ask questions based on its content.
 
+## How it Works
+
+- The application reads the PDF and splits the text into smaller chunks suitable for feeding into a Language Model (LLM).
+- OpenAI embeddings are used to create vector representations of the text chunks.
+- The application identifies chunks that are semantically similar to the user's question and provides those chunks to the LLM for response generation.
+- Streamlit is employed to create the graphical user interface, and Langchain is used to interact with the Language Model.
+
 ## Project Structure
 
 - `app.py`: Main script containing the Streamlit application.
